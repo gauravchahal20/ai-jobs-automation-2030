@@ -92,7 +92,7 @@ The system follows a structured pipeline:
 Clone the repository:
 
 
-git clone https://github.com/your-username/ai-job-risk-predictor-2030.git
+git clone https://github.com/gauravchahal20/ai-job-risk-predictor-2030.git
 
 cd ai-job-risk-predictor-2030
 
