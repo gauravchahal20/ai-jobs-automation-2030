@@ -187,7 +187,7 @@ button[title="Expand sidebar"] {
 # ─────────────────────────────────────────────
 # LOAD PATHS
 # ─────────────────────────────────────────────
-BASE_DIR = Path(__file__).resolve().parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 MODEL_PATH = BASE_DIR / "models" / "model.pkl"
 COLUMNS_PATH = BASE_DIR / "models" / "columns.pkl"
 JOB_PATH = BASE_DIR / "data" / "processed" / "job_profiles.csv"
