@@ -1,0 +1,43 @@
+job_role,creativity_requirement,analytical_complexity,ai_dependency_future,physical_labor_level,social_interaction_level,task_repetition_level,percent_tasks_automatable,communication_requirement
+Software Engineer,0.7,0.9,0.8,0.2,0.5,0.6,0.7,0.6
+Data Scientist,0.8,0.9,0.85,0.1,0.4,0.5,0.6,0.5
+AI Engineer,0.8,0.95,0.9,0.1,0.4,0.5,0.7,0.5
+Web Developer,0.7,0.8,0.8,0.1,0.5,0.6,0.7,0.6
+Mobile App Developer,0.7,0.8,0.8,0.1,0.5,0.6,0.7,0.6
+DevOps Engineer,0.6,0.85,0.75,0.2,0.4,0.7,0.75,0.5
+Cybersecurity Analyst,0.6,0.9,0.7,0.1,0.4,0.5,0.5,0.6
+Cloud Engineer,0.6,0.85,0.8,0.1,0.4,0.6,0.7,0.5
+Database Administrator,0.5,0.8,0.75,0.1,0.3,0.7,0.8,0.4
+System Administrator,0.5,0.75,0.7,0.2,0.3,0.8,0.8,0.4
+IT Support Specialist,0.4,0.6,0.6,0.2,0.6,0.7,0.7,0.7
+QA Engineer,0.6,0.7,0.75,0.1,0.5,0.8,0.8,0.5
+Product Manager,0.8,0.8,0.6,0.1,0.8,0.4,0.5,0.9
+Project Manager,0.7,0.7,0.5,0.1,0.9,0.4,0.5,0.9
+Business Analyst,0.7,0.8,0.6,0.1,0.7,0.5,0.6,0.8
+Data Analyst,0.6,0.8,0.7,0.1,0.5,0.6,0.7,0.6
+UI Designer,0.9,0.6,0.7,0.1,0.5,0.4,0.5,0.6
+UX Designer,0.9,0.6,0.7,0.1,0.6,0.4,0.5,0.7
+Graphic Designer,0.9,0.6,0.7,0.1,0.5,0.5,0.6,0.6
+Animator,0.9,0.5,0.7,0.1,0.4,0.5,0.6,0.5
+Content Writer,0.9,0.5,0.6,0.1,0.6,0.5,0.6,0.7
+Teacher,0.8,0.6,0.4,0.2,0.9,0.3,0.3,0.9
+Doctor,0.8,0.9,0.3,0.3,0.9,0.2,0.2,0.9
+Lawyer,0.8,0.85,0.4,0.1,0.9,0.4,0.4,0.9
+Accountant,0.5,0.8,0.7,0.1,0.4,0.8,0.8,0.5
+HR Manager,0.7,0.6,0.5,0.1,0.9,0.5,0.6,0.9
+Sales Executive,0.6,0.5,0.7,0.2,0.9,0.7,0.8,0.9
+Marketing Manager,0.8,0.7,0.7,0.1,0.8,0.5,0.6,0.8
+Customer Support,0.4,0.4,0.7,0.1,0.9,0.8,0.8,0.9
+Data Entry Clerk,0.2,0.3,0.95,0.1,0.2,0.95,0.95,0.2
+Cashier,0.2,0.3,0.9,0.2,0.6,0.9,0.9,0.5
+Electrician,0.5,0.7,0.4,0.8,0.6,0.4,0.3,0.6
+Mechanical Engineer,0.6,0.8,0.6,0.7,0.5,0.5,0.5,0.5
+Architect,0.9,0.8,0.5,0.3,0.6,0.4,0.4,0.7
+Pilot,0.5,0.9,0.4,0.5,0.6,0.3,0.3,0.7
+Driver,0.3,0.4,0.8,0.8,0.5,0.9,0.9,0.4
+Farmer,0.4,0.5,0.3,0.9,0.3,0.4,0.3,0.3
+Chef,0.8,0.6,0.5,0.6,0.6,0.5,0.5,0.6
+Fitness Trainer,0.6,0.5,0.4,0.8,0.8,0.3,0.3,0.8
+Research Scientist,0.8,0.95,0.4,0.2,0.4,0.3,0.3,0.5
+Statistician,0.6,0.9,0.7,0.1,0.3,0.6,0.7,0.4
+Actuary,0.5,0.95,0.8,0.1,0.2,0.7,0.8,0.3
