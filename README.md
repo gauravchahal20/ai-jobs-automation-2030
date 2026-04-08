@@ -1,79 +1,100 @@
-## AI Job Risk Predictor 2030
+# AI Job Risk Predictor 2030
 
-# Overview
+## Overview
 
-This project is an end-to-end machine learning application that predicts the risk of job automation in the future. It is designed to help users understand how vulnerable a particular job role is to automation based on factors such as creativity, analytical complexity, AI dependency, and more.
+This project is an end-to-end machine learning application that predicts the risk of job automation in the future.
 
-Unlike basic prediction systems, this project goes a step further by providing explanations for the predicted risk and suggesting safer alternative career options. The goal is to make the output meaningful and actionable rather than just numerical.
+It helps users understand how vulnerable a job role is based on factors such as:
+- Creativity
+- Analytical complexity
+- AI dependency
+- Social interaction
+- Task repetition
 
-# Key Features
+Unlike basic prediction tools, this system also explains *why* a job is at risk and suggests safer alternative career paths.
 
-Predicts automation risk for different job roles
-Provides explanations for why a job is at risk
-Suggests safer alternative careers based on input
-Interactive user interface built with Streamlit
-Uses a structured job profile dataset for realistic predictions
-Fully integrated machine learning pipeline from preprocessing to deployment
+---
 
+## Key Features
 
-# Project Structure
+- Predicts automation risk for different job roles  
+- Explains why a job is at risk (Explainable AI approach)  
+- Suggests safer alternative careers  
+- Interactive web interface built with Streamlit  
+- End-to-end machine learning pipeline  
+- Realistic job profile dataset integration  
 
+---
+
+## Project Structure
+```
 ai-job-risk-predictor/
 │
 ├── app/
-│   └── app.py
+│ └── streamlit_app.py
 │
 ├── data/
-│   ├── raw/
-│   └── processed/
-│       ├── cleaned_data.csv
-│       ├── featured_data.csv
-│       └── job_profiles.csv
+│ ├── raw/
+│ └── processed/
+│ ├── cleaned_data.csv
+│ ├── featured_data.csv
+│ └── job_profiles.csv
 │
 ├── models/
-│   ├── model.pkl
-│   └── columns.pkl
+│ ├── model.pkl
+│ └── columns.pkl
 │
 ├── src/
-│   ├── data/
-│   │   └── preprocess.ipynb
-│   ├── features/
-│   │   └── build_features.ipynb
-│   └── models/
-│       └── train_model.ipynb
+│ └── data/
+│ └── preprocess.ipynb
+│
+├── features/
+│ └── build_features.ipynb
+│
+├── models/
+│ └── train_model.ipynb
+│
+├── utils/
+│ └── helpers.py
 │
 ├── requirements.txt
 └── README.md
-How It Works
 
-# The system follows a structured pipeline:
+```
+---
 
-Raw data is cleaned and preprocessed
-Features are engineered to capture job characteristics
-A machine learning model is trained to predict automation risk
-The Streamlit application takes user input and generates predictions
-The system explains the result and suggests safer job alternatives
+## How It Works
 
-# The prediction is based on multiple factors such as:
+The system follows a structured pipeline:
 
-Task repetition level
-AI dependency
-Creativity requirement
-Social interaction level
-Salary and job demand
-Technologies Used
-Python
-Pandas and NumPy for data processing
-XGBoost for machine learning
-Streamlit for building the web application
-Plotly for visualization
-Joblib for model serialization
-Installation and Setup
+1. Raw data is cleaned and preprocessed  
+2. Features are engineered to capture job characteristics  
+3. A machine learning model is trained using XGBoost  
+4. The Streamlit app collects user input  
+5. The model predicts automation risk  
+6. The system explains the result and suggests safer roles  
 
-# Clone the repository:
+---
 
-git clone https://github.com/your-username/your-repo.git
-cd ai-job-risk-predictor
+## Technologies Used
+
+- Python  
+- Pandas, NumPy  
+- XGBoost  
+- Streamlit  
+- Plotly  
+- Joblib  
+
+---
+
+## Installation and Setup
+
+Clone the repository:
+
+
+git clone https://github.com/your-username/ai-job-risk-predictor-2030.git
+
+cd ai-job-risk-predictor-2030
 
 Install dependencies:
 
@@ -81,27 +102,24 @@ pip install -r requirements.txt
 
 Run the application:
 
-streamlit run app/app.py
+streamlit run app/streamlit_app.py
 Deployment
 
 This project is deployed using Streamlit Community Cloud.
-You can access the live application here:
 
+Live App:
 https://your-app-name.streamlit.app
-Use Case
 
-# This tool can be useful for:
-
+Use Cases
 Students planning their careers
-Professionals evaluating job stability
+Professionals analyzing job stability
+Career counselors
 Researchers studying automation trends
-Career counselors and educators
 Future Improvements
-Add real-world datasets for improved accuracy
-Integrate explainability tools like SHAP
-Include personalized career roadmaps
-Add user login and history tracking
-Expand dataset with more job roles and industries
+Integration of real-world datasets
+SHAP-based explainability
+Personalized career roadmap
+User login and history tracking
 Author
 
 Gaurav Chahal
@@ -109,4 +127,4 @@ B.Tech Computer Science Engineering
 
 License
 
-This project is open-source and available for educational and personal use.
+This project is open-source and intended for educational use.
